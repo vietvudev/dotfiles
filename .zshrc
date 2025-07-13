@@ -16,5 +16,3 @@ export PATH=$PATH:/usr/bin
 # Go
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:~/go/bin
-# Rust
-source "$HOME/.cargo/env"
