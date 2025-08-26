@@ -20,7 +20,10 @@
     "format-alt": "<span size='16000' foreground='#B1E3AD'>{icon} </span>{time}",
     "format-full": "<span size='16000' foreground='#B1E3AD'>{icon} </span>{capacity}%",
     "format-icons": ["", "", "", "", ""],
-    "tooltip-format": "{time}"
+    "format-time": "{H}h {M}m",
+    "tooltip-format": "Battery: {capacity}% ({power} W)\nTime: {time}",
+    "tooltip-format-time": "{H}h {M}m",
+    "tooltip-spacing": 4
   },
   "network": {
     "format-wifi": "<span size='16000' foreground='#f9e2af'> </span>{essid}",
@@ -43,7 +46,7 @@
   },
   "custom/power": {
 	  "format" : "<span size='16000' foreground='#b4befe'>⏻</span>",
-		"tooltip": false,
+		"tooltip-format": "Power Options",
 		"on-click": "wlogout --protocol layer-shell"
   },
 }
