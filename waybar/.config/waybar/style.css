@@ -1,8 +1,8 @@
 @import "mocha.css"; 
 
 * {
-    font-family: "MesloLGS Nerd Font Mono Bold";
-    font-size: 12px;
+    font-family: "IosevkaTerm Nerd Font Mono";
+    font-size: 14px;
     min-height: 0;
     font-weight: bold;
 }
@@ -68,16 +68,12 @@ button:hover {
 #network,
 #mode,
 #scratchpad {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  margin-left: 4px;
-  margin-right: 4px;
-  padding-left: 4px;
-  padding-right: 4px;
+  margin: 2px 4px;
+  /* padding: 0 2px; */
 }
 
 #custom-power {
-  padding-right: 8px;
+  padding: 0 4px;
   color: @lavender;
   border-bottom: 2px solid @lavender;
 }
